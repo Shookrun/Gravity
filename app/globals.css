@@ -7,3 +7,19 @@ body{
     background-color: #141619;
     color: white;
 }
+
+.button{
+    position: relative;
+}
+.button::before{
+    content: "";
+    width: 13px;
+    height: 13px;
+    display: block;
+    position: absolute;
+    left: -15px;
+    bottom: 5px;
+    border-radius: 50%;
+    background: linear-gradient(#665DCD,#5FA4E6,#D2AB67) ;
+    rotate: 4deg;
+}
