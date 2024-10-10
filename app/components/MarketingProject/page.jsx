@@ -1,24 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import MarketingComponent from "./MarketingComponent/page";
 
 const MarketingProject = () => {
   return (
     <div className="flex items-center px-20 justify-between ">
-      <div className="w-[30%] flex flex-col gap-6">
-        <h2 className="text-2xl">Market Making for Crypto Projects</h2>
-        <p className="font-bold">
-          Accelerate your token’s journey by boosting its liquidity
-        </p>
-        <p>
-          We invest in building long-term, sustainable relationships and support
-          our projects in their growth journey with our services, industry
-          expertise and network.
-        </p>
-        <h4 className="flex items-center gap-4 underline leading-relax decoration-[#5FA4E6]">
-          Learn More <FaArrowRight />
-        </h4>
-      </div>
+   <MarketingComponent title="Market Making for Crypto Projects" desc1=" Accelerate your token’s journey by boosting its liquidity" desc2="We invest in building long-term, sustainable relationships and support
+      our projects in their growth journey with our services, industry
+      expertise and network."/>
       <div className="relative w-[40%]">
         <Image
         src={"/div.svg"}
