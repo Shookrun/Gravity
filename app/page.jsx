@@ -4,6 +4,7 @@ import GravityTeam from "./components/GravityTeam/page";
 import CrypoMarketing from "./components/CryptoMarketing/page";
 import MarketingProject from "./components/MarketingProject/page";
 import Exchange from "./components/Exchange/page";
+import Partners from "./components/Partners/page";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <CrypoMarketing/>
       <MarketingProject/>
       <Exchange/>
+      <Partners/>
     </div>
   );
 }
